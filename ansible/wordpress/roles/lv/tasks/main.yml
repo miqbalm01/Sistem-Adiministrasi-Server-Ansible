@@ -1,0 +1,4 @@
+- name : www.conf
+  template:
+    src=template/www.conf
+    dest=/etc/php/7.4/fpm/pool.d/www.conf

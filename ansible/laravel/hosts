@@ -1,0 +1,6 @@
+[landing]
+ubuntu_landing ansible_host=lxc_landing.dev ansible_ssh_user=root ansible_become_pass=123zse456
+
+#[blog]
+#ubuntu_php7.4 ansible_host=lxc_php7.dev ansible_ssh_user=root ansible_become_pass= 
+
