@@ -1795,15 +1795,15 @@ LXC_DB_SERVER ansible_host=lxc_db_server.dev ansible_ssh_user=root ansible_becom
 
 lakukan load balancer pada YII, Laravel, dan Ci
 
-Least Connection
-Metode ini memilih server dengan jumlah koneksi terendah pada saat itu. Tujuannya adalah mendistribusikan lalu lintas secara merata dan mencegah satu server menjadi lebih terbebani dibandingkan yang lain.
+Least Connection,
+memilih server dengan jumlah koneksi terendah pada saat itu. Tujuannya adalah mendistribusikan lalu lintas secara merata dan mencegah satu server menjadi lebih terbebani dibandingkan yang lain.
 
 * LXC_PHP7_1
 * LXC_PHP7_2
 * LXC_PHP7_4
 * LXC_PHP7_6
 
-Ip Hash
+Ip Hash,
 menggunakan alamat IP pengguna (atau sumber daya lainnya) untuk menetapkan pengguna ke server tertentu. Hal ini membantu agar koneksi dari satu pengguna selalu diarahkan ke server yang sama.
 
 * LXC_PHP7_2
@@ -1811,7 +1811,7 @@ menggunakan alamat IP pengguna (atau sumber daya lainnya) untuk menetapkan pengg
 * LXC_PHP7_4
 * LXC_PHP7_5
 
-Weighted Load Balancingmemberikan bobot atau nilai ke server berdasarkan kapasitas atau performa masing-masing. Server dengan bobot yang lebih tinggi akan menerima proporsi lalu lintas yang lebih besar.
+Weighted Load Balancing, memberikan bobot atau nilai ke server berdasarkan kapasitas atau performa masing-masing. Server dengan bobot yang lebih tinggi akan menerima proporsi lalu lintas yang lebih besar.
 
 * LXC_PHP7_1 (Weight=3)
 * LXC_PHP7_2 (Weight=2)
@@ -1819,7 +1819,7 @@ Weighted Load Balancingmemberikan bobot atau nilai ke server berdasarkan kapasit
 * LXC_PHP7_5 (Weight=1)
 * LXC_PHP7_6 (Weight=6)
 
-Round Robin
+Round Robin,
 mendistribusikan lalu lintas secara bergantian ke setiap server dalam urutan yang telah ditentukan.
 
 * LXC_PHP5_1
